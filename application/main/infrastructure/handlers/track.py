@@ -266,7 +266,7 @@ class Tracker:
                                         Thread(target= add_vehicle_to_db, args=[this_vehicle]).start()
                                     
                                     
-                                    list_vehicles.discard(ID)
+                                    # list_vehicles.discard(ID)
                                     # vehicle_infos.pop(ID)
                     
                     
@@ -335,6 +335,8 @@ class Tracker:
         print(vehicle_infos)
         print(list_vehicles)
 
+        print(len(vehicle_infos))
+        print(len(list_vehicles))
 
         # Print results
         t = tuple(x / seen * 1E3 for x in dt)  # speeds per image

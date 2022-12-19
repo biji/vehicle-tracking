@@ -4,7 +4,7 @@
 
 pyparsing==3.0.6
 matplotlib>=3.2.2
-numpy>=1.19.5
+numpy==1.23
 opencv-python>=4.5.4.60
 Pillow>=8.4.0
 PyYAML>=6.0
@@ -41,7 +41,7 @@ imageio
 
 # database ----------------------------------
 SQLAlchemy==1.4.29
-psycopg2==2.9.2
+psycopg2==2.8.4
 pg8000==1.23.0
 
 
